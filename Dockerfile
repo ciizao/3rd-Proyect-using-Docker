@@ -1,5 +1,5 @@
-# Usar una imagen base con .NET SDK para construir la aplicación
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+# Usar una imagen base con .NET SDK 8.0 para construir la aplicación
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 # Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
@@ -13,14 +13,16 @@ RUN dotnet restore
 COPY ./exercise3/. ./exercise3/
 RUN dotnet publish -c Release -o /app/out
 
-# Usar la imagen base con .NET Runtime para ejecutar la aplicación
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+# Usar la imagen base con .NET Runtime 8.0 para ejecutar la aplicación
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
 # Establecer el directorio de trabajo en la imagen final
 WORKDIR /app
 
 # Copiar los archivos compilados desde la etapa de construcción
-COPY --from=build /app/out .
+COPY --from=build /app/out . 
 
 # Establecer el comando para ejecutar la aplicación
 ENTRYPOINT ["dotnet", "exercise3.dll"]
+
+
