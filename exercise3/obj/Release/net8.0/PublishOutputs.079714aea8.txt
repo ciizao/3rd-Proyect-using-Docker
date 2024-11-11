@@ -1,5 +1,0 @@
-C:\Users\USER-PC\Documents\GitHub\3rd-Proyect-using-Docker\exercise3\bin\Release\net8.0\publish\exercise3.exe
-C:\Users\USER-PC\Documents\GitHub\3rd-Proyect-using-Docker\exercise3\bin\Release\net8.0\publish\exercise3.dll
-C:\Users\USER-PC\Documents\GitHub\3rd-Proyect-using-Docker\exercise3\bin\Release\net8.0\publish\exercise3.deps.json
-C:\Users\USER-PC\Documents\GitHub\3rd-Proyect-using-Docker\exercise3\bin\Release\net8.0\publish\exercise3.runtimeconfig.json
-C:\Users\USER-PC\Documents\GitHub\3rd-Proyect-using-Docker\exercise3\bin\Release\net8.0\publish\exercise3.pdb
