@@ -39,3 +39,19 @@ Open new window browser and search localhost:8080
 
 [View results](#results)
 
+## :light_rail: PAAS Deploy with docker (Railway)
+For its deployment in a PAAS we will rely on railway and its easy implementation thanks to its container management. 
+
+![Railway Service](Public/Images/Railway1.png "Service")
+
+> [!IMPORTANT]
+> Next, the configuration that we must add is the generation of a domain along with the desired port, in this case the indicated thing would be to point to port 3000
+
+![Generate Domain](Public/Images/Railway2.png "Domain")
+
+### View the results
+![Result Railway](Public/Images/RailwayResult.png "Domain")
+
+
+Link Railway App
+[Message](https://web-production-1cbdc.up.railway.app "click for visit")
