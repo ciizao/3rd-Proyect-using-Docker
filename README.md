@@ -20,6 +20,7 @@ This is a program that presents a message on the web with JAVA
 * DockerHub account
 ### Download image
 
+*Image in the DockerHub repository and how to use it
 ```
 https://hub.docker.com/repository/docker/ciizao/3rd-proyect-using-docker-java
 ```
@@ -29,8 +30,6 @@ docker pull ciizao/3rd-proyect-using-docker-go
 > [!IMPORTANT]
 > By default, port 8080 is the one assigned to open the web page
 ### Run image
-
-*Image in the DockerHub repository and how to use it
 
 ```
 https://hub.docker.com/repository/docker/ciizao/3rd-proyect-using-docker-java
