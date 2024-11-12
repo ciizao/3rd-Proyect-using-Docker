@@ -19,12 +19,20 @@ This is a program that presents a message on the web with JAVA
 * Docker - DockerDesktop installed
 * DockerHub account
 ### Download image
+
+```
+https://hub.docker.com/repository/docker/ciizao/3rd-proyect-using-docker-java
+```
 ```
 docker pull ciizao/3rd-proyect-using-docker-go
 ```
 > [!IMPORTANT]
 > By default, port 8080 is the one assigned to open the web page
 ### Run image
+
+```
+https://hub.docker.com/repository/docker/ciizao/3rd-proyect-using-docker-java
+```
 ```
 docker run --name <NEWCONTAINERNAME> -p 8080:8080 <IMAGENAME>
 ```
@@ -50,6 +58,9 @@ For its deployment in a PAAS we will rely on railway and its easy implementation
 ![Generate Domain](Public/Images/Railway2.png "Domain")
 
 ### View the results
+
+This is the result of deploying in Railway through the created domain
+
 ![Result Railway](Public/Images/RailwayResult.png "Domain")
 
 
