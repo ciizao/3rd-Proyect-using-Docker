@@ -30,6 +30,8 @@ docker pull ciizao/3rd-proyect-using-docker-go
 > By default, port 8080 is the one assigned to open the web page
 ### Run image
 
+*Image in the DockerHub repository and how to use it
+
 ```
 https://hub.docker.com/repository/docker/ciizao/3rd-proyect-using-docker-java
 ```
